@@ -1,12 +1,10 @@
-`
 language: node_js
 node_js:
-- "stable"
+  - "stable"
 deploy:
 provider: pages
 skip_cleanup: true
-github_token: $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
+github_token: $github_token
 local_dir: build
 on:
 branch: master
-`
